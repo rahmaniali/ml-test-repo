@@ -9,7 +9,7 @@ l1_ratio = float(sys.argv[2]) if len(sys.argv) > 2 else 2
 
 with mlflow.start_run():
 
-    rmse = 5
+    rmse = 95
 
 
     mlflow.log_param("alpha", alpha)
